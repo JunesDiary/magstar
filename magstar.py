@@ -211,6 +211,13 @@ def lsdcomputer():
         #edit the inlsd file and put the spectra name which you will be creating lsd profile of
         inlsdedit(file.split('/')[-1] + '\n')
         
+        #remove the mask file and copy the one given by user to lsdpy folder
+        try:
+            os.remove(os.getcwd() + '/mask.txt')
+        except:
+            None
+        shutil.copy(mask_path, os.getcwd())
+        
         filelist.append(file.split('/')[-1])
         status.append('Processed')
         progress.append('('+ str(listdir.index(file)+1) + '/' + str(len(listdir)) + ')')
