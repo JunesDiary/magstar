@@ -32,7 +32,7 @@ Following packages are required:
 
 ## Setup
 
-Download the folder LSDpy above and rename the folder magstar to 'LSDpy'. Also download specpolflow from here: [Specpolflow](https://github.com/folsomcp/specpolFlow) To run the GUI, open terminal and go to the folder LSDpy you just downloaded and type:
+Download the code above, extract it and rename the folder magstar_main to 'LSDpy'. Also download specpolflow from here: [Specpolflow](https://github.com/folsomcp/specpolFlow) To run the GUI, open terminal and go to the folder you just downloaded and renamed and type:
 
 `python3 magstar.py`
 
