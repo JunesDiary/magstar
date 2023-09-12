@@ -2,7 +2,7 @@
 
 ## Description
 
-A GUI based Least Square Deconvolution and Mean Longitudinal Magnetic Field Analysis Tool. The LSDpy computation is done using LSDpy code from folsomcp and magnetic field determination with the help of package specpolflow. It has the following functionality:
+A GUI based Least Square Deconvolution and Mean Longitudinal Magnetic Field Analysis Tool. The LSD process is done using LSDpy code from folsomcp and magnetic field determination with the help of package specpolflow. It has the following functionality:
 
     1. Convertion of VALD line file downloaded from VALD3 in short format, to LSDpy supported input Mask format.
     2. Computation of LSD profiles and viewing the profiles, for a single file or multiple files.
